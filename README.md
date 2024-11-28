@@ -1,0 +1,1 @@
+This repository contains a collection of Python code examples and explanations summarizing key concepts from an Object-Oriented Programming (OOP) course. Each file provides hands-on demonstrations of core OOP principles, including classes, inheritance, polymorphism, encapsulation, and more.
