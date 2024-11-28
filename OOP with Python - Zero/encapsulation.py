@@ -1,5 +1,5 @@
 ############################# ENCAPSULATION #############################
-# to restrict access to data stored in attributes ans methods
+# to restrict access to data stored in attributes and methods
 ## in python there is no real protect or private
 # >> you just know the naming roles of att/methods and how to name them.
 
@@ -32,7 +32,7 @@ class member_2:
         self._age = age
 
 
-# in java it can't be used here
+# in java, it can't be used here
 m2 = member_2("amr", 23)
 # print(m2._name)
 
@@ -44,7 +44,7 @@ m1._name = "ahmed"
 
 
 ## private
-# - attributes and methods can be used only within the class or it's object
+# - attributes and methods can be used only within the class, or it's object
 # - att/methods can't be modified from out the class
 # - known by adding __ before att/method name >> __name, __age, __define
 class member_3:
