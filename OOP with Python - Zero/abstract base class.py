@@ -3,7 +3,7 @@
 # abc module has infrastructure to define Abstract Base Class by using ABCMeta class
 # define abstract method by adding @abstractmethod decorator before the method
 ## it's a general class that define a pattern to all subclasses
-## and force all subclasses to have tae method that is abstracted
+## and force all subclasses to have the method that is abstracted
 
 # ABC == ABCMeta
 from abc import ABC, abstractmethod

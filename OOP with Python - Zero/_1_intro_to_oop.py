@@ -47,10 +47,10 @@ class car:
         return "This is class about cars production lines"
 
     # magic method
-    def __len__(self):  # is have to be able to use "len" built in func
+    def __len__(self):  # have to be able to use "len" built in func
         return len(self.super_cars)
 
-    def __str__(self):  # to show readable mytext for human user instead of <__main__.car object at 0x000001F3BDC7A390>
+    def __str__(self):  # to show readable my-text for human user instead of <__main__.car object at 0x000001F3BDC7A390>
         return f"this is instance from car class and here is it's info: {self.car_data()}"
 
     def __init__(self, model, year, country, color, tank_size):
@@ -79,18 +79,18 @@ class car:
 
     # method can access another method
     def info(self):
-        return f" the car info: {self.car_data()}, " \
+        return f"the car info: {self.car_data()}, " \
                f"total distance is {self.total_dis()}, " \
                f"{self.mod} is {self.is_super()}"
 
-
-# class attribute
-print(car.cars_count)
 
 # creating instances
 A5 = car("skoda", 2005, "germany", "green", 55)
 K3 = car("kia", 2024, "korea", "yellow", 60)
 X7 = car("BMW", 2023, "Germany", "black", 90)
+
+# class attribute
+print(car.cars_count)
 
 # class method
 print(car.production(), "\n")
@@ -99,7 +99,7 @@ print(car.production(), "\n")
 print(car.define(), "\n")
 
 # call __len__
-print(len(A5), "\n")
+print(len(X7), "\n")
 
 # call __str__ and see readable data instead of its location
 print(K3, "\n")
@@ -108,4 +108,4 @@ print(K3, "\n")
 print(A5.__class__, "\n")
 
 # to call instance method like "str.upper"
-# print(K3.info())
+print(K3.info(), '\n')
